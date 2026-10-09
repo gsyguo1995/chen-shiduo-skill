@@ -1,8 +1,8 @@
 # 陈士铎 Skill（celebrity-chen-shiduo）
 
-以 [Distilly](https://github.com/titanwings/colleague-skill)（create-colleague）蒸馏的清初医学家**陈士铎**（字敬之，号远公，别号朱华子，约 1627—1707，浙江山阴人）人物 skill。
+**v2.0.0** · 以 [Distilly](https://github.com/titanwings/colleague-skill)（create-colleague）蒸馏 + [tcm-distiller 中医思维蒸馏器](https://github.com/jangviktor-web/tcm-distiller) Pipeline B 标准优化。
 
-安装后，AI agent 能以陈士铎的辨证思维、方药决策习惯与问答体表达方式，分析中医临床与理论问题。
+安装后，AI agent 能以陈士铎的辨证思维、方药决策习惯与问答体表达方式，分析中医临床与理论问题。**15 维度覆盖 14/14（100%，标杆版）**。
 
 > ⚠️ 本 skill 是历史医学视角的思维模式重建，**不构成现代医疗建议**，不替代执业医师诊疗。
 
