@@ -1,0 +1,177 @@
+{
+  "name": "陈士铎",
+  "display_name": "陈士铎",
+  "character": "celebrity",
+  "research_profile": "budget-friendly",
+  "classification": {
+    "language": "zh-CN",
+    "gallery_category": "Celebrity",
+    "tags": [
+      "中医",
+      "辨证论治",
+      "清初医家",
+      "五行生克",
+      "方剂学",
+      "本草",
+      "历史人物",
+      "陈士铎"
+    ]
+  },
+  "profile": "清初医学家陈士铎（字敬之，号远公，别号朱华子，约1627-1707，浙江山阴人）。以'精于辨证'著称，托名'遇仙传书'著成医书八部存世（辨证录、石室秘录、本草新编、外经微言、洞天奥旨、辨证玉函、辨证奇闻、脉诀阐微，约120万字），构建了以五行生克为总纲、补重于攻、重剂起沉疴的临床辨证体系。与傅山学术遗产关系为中医史著名悬案。本 skill 让 agent 以陈士铎的辨证思维、方药决策习惯与问答体表达方式分析中医临床与理论问题。",
+  "tags": [
+    "中医",
+    "辨证论治",
+    "清初医家",
+    "五行生克",
+    "方剂学",
+    "本草",
+    "历史人物",
+    "陈士铎"
+  ],
+  "knowledge_sources": [
+    "用户本地《陈士铎医学丛书》电子版 8 部著作全文（约120万字，中医笈成开放数据库，底本北大图书馆扫描本）",
+    "https://www.visitbeijing.com.cn/article/48P6X86XuiX （北京中医药大学 黄英华/梁永宣：陈士铎学术评介）",
+    "https://m.dayi.org.cn/classics/100248.html （中国医药信息查询平台：辨证录条目）",
+    "嘉庆八年《山阴县志》本传（经多来源转引）；辨证玉函·王之策序（1693）；洞天奥旨·陶式玉序（1698）",
+    "著作权争议研究线索：刘润兰（山西中医药大学，松侨老人傅山稿对勘）、何高民（遇仙传书考）等"
+  ],
+  "type": "celebrity",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-10-09T09:08:50.129429+00:00",
+    "updated_at": "2026-10-09T09:08:50.129429+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "distilly",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "distilly.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "distilly.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "public_x_posts": "tools/research/xquik_public_posts.py",
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    },
+    "created_from": [
+      "用户本地《陈士铎医学丛书》电子版 8 部著作全文（约120万字，中医笈成开放数据库，底本北大图书馆扫描本）",
+      "https://www.visitbeijing.com.cn/article/48P6X86XuiX （北京中医药大学 黄英华/梁永宣：陈士铎学术评介）",
+      "https://m.dayi.org.cn/classics/100248.html （中国医药信息查询平台：辨证录条目）",
+      "嘉庆八年《山阴县志》本传（经多来源转引）；辨证玉函·王之策序（1693）；洞天奥旨·陶式玉序（1698）",
+      "著作权争议研究线索：刘润兰（山西中医药大学，松侨老人傅山稿对勘）、何高民（遇仙传书考）等"
+    ],
+    "corrections_count": 0
+  },
+  "source_context": {
+    "domain": "public",
+    "relationship_to_user": "public_figure",
+    "is_real_person": true,
+    "is_public_figure": true,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "distilly",
+    "kind": "meta-skill",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "distilly.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "distilly.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "public_x_posts": "tools/research/xquik_public_posts.py",
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    }
+  },
+  "schema_version": "3",
+  "slug": "chen-shiduo",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "distilly.celebrity.v1",
+  "id": "meta-skill.celebrity.chen-shiduo",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "celebrity-chen-shiduo",
+    "work_name": "celebrity-chen-shiduo-work",
+    "persona_name": "celebrity-chen-shiduo-persona",
+    "combined_command": "celebrity-chen-shiduo",
+    "work_command": "celebrity-chen-shiduo-work",
+    "persona_command": "celebrity-chen-shiduo-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-icon",
+    "legacy_storage_root": "skills/celebrity",
+    "legacy_type": "celebrity"
+  },
+  "summary": "陈士铎, 清初医学家陈士铎（字敬之，号远公，别号朱华子，约1627-1707，浙江山阴人）。以'精于辨证'著称，托名'遇仙传书'著成医书八部存世（辨证录、石室秘录、本草新编、外经微言、洞天奥旨、辨证玉函、辨证奇闻、脉诀阐微，约120万字），构建了以五行生克为总纲、补重于攻、重剂起沉疴的临床辨证体系。与傅山学术遗产关系为中医史著名悬案。本 skill 让 agent 以陈士铎的辨证思维、方药决策习惯与问答体表达方式分析中医临床与理论问题。",
+  "created_at": "2026-10-09T09:08:50.129429+00:00",
+  "updated_at": "2026-10-09T09:08:50.129429+00:00",
+  "version": "v1",
+  "corrections_count": 0
+}
